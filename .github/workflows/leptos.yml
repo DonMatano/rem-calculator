@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Trunk
-        run: cargo install Trunk
+        run: cargo install trunk
       - name: Install nightly toolchain
         run: rustup toolchain install nightly
       - name: Install nightly
