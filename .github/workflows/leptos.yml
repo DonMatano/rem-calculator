@@ -34,7 +34,7 @@ jobs:
       - name: List folder again
         run: ls -a
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v1
         with:
           name: github-pages
           path: ./dist
