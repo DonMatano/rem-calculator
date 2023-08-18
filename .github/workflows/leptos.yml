@@ -28,7 +28,7 @@ jobs:
       - name: Run tests
         run: cargo test --verbose
       - name: Trunk build
-        run: trunk build
+        run: trunk build --public-url="rem-calculator/" --release
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v2
         with:
