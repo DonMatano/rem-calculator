@@ -37,12 +37,12 @@ fn App(cx: Scope) -> impl IntoView {
             on:input=update_rem_value
             input_ref=rem_input_ref
             calculated_value=Signal::derive(cx, rem_value)
-            label="rem"  />
+            label="Rem"  />
         <CalculatedInput
             on:input=handle_px_input
             input_ref=px_input_ref
             calculated_value=px_value
-            label="px"
+            label="Px"
         />
     }
 }
