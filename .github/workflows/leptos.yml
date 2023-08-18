@@ -30,7 +30,7 @@ jobs:
       - name: Trunk build
         run: trunk build
       - name: Upload Artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: github-pages
           path: ./dist
@@ -54,4 +54,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v2.0.4
+        uses: actions/deploy-pages@v2
