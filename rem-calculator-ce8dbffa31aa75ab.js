@@ -201,7 +201,7 @@ function makeMutClosure(arg0, arg1, dtor, f) {
     return real;
 }
 function __wbg_adapter_18(arg0, arg1, arg2) {
-    wasm._dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hd68e21144d888548(arg0, arg1, addHeapObject(arg2));
+    wasm._dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hb099205f1db27d15(arg0, arg1, addHeapObject(arg2));
 }
 
 function isLikeNone(x) {
@@ -520,7 +520,7 @@ function __wbg_get_imports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper1229 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper1244 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 170, __wbg_adapter_18);
         return addHeapObject(ret);
     };
@@ -562,7 +562,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('rem-calculator-de54b3bd821eddfe_bg.wasm', import.meta.url);
+        input = new URL('rem-calculator-ce8dbffa31aa75ab_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
