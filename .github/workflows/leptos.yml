@@ -30,7 +30,7 @@ jobs:
       - name: Trunk build
         run: trunk build
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
           name: github-pages
           path: ./dist
